@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #7AB730;
+    --primary: #9e30b7;
     --secondary: #FFD33C;
     --light: #F3F3F3;
     --dark: #212121;
@@ -76,7 +76,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: #b7307b;
 }
 
 @media (min-width: 992px) {
@@ -113,7 +113,7 @@
 }
 
 .hero-header {
-    background: url(../img/hero.jpg) top right no-repeat;
+    background: url(hero.jpg) top right no-repeat;
     background-size: cover;
 }
 
@@ -127,7 +127,7 @@
     border: none;
     outline: none !important;
     padding: 18px 20px 20px 28px;
-    background: #FFFFFF;
+    background: #9A208C;
 }
 
 .btn-play:before {
@@ -140,7 +140,7 @@
     display: block;
     width: 60px;
     height: 60px;
-    background: #FFFFFF;
+    background: #9A208C;
     border-radius: 100%;
     animation: pulse-border 1500ms ease-out infinite;
 }
@@ -155,7 +155,7 @@
     display: block;
     width: 60px;
     height: 60px;
-    background: #FFFFFF;
+    background: #9A208C;
     border-radius: 100%;
     transition: all 200ms;
 }
@@ -281,7 +281,7 @@
 }
 
 .bg-offer {
-    background: url(../img/offer.jpg) top right no-repeat;
+    background: url(offer.jpg) top right no-repeat;
     background-size: cover;
 }
 
@@ -315,7 +315,7 @@
     align-items: center;
     justify-content: center;
     color: var(--primary);
-    background: #FFFFFF;
+    background: #9A208C;
     font-size: 22px;
     border-radius: 45px;
     transition: .5s;
@@ -386,7 +386,7 @@
 }
 
 .bg-testimonial {
-    background: url(../img/testimonial.jpg) top left no-repeat;
+    background: url(testimonial.jpg) top left no-repeat;
     background-size: cover;
 }
 
