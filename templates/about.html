@@ -2,290 +2,305 @@
 <html lang="en">
 
 <head>
+    <title>Reflux HTML CSS Template</title>
+<!--
+
+</head>
+    {% load static %}
+Reflux Template
+https://templatemo.com/tm-531-reflux
+-->
+    <!-- Bootstrap core CSS -->
+
+        <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <title>Reflux HTML CSS Template</title>
+<!--
+Reflux Template
+https://templatemo.com/tm-531-reflux
+-->
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" />
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{% static 'assets/css/fontawesome.css' %}" />
+    <link rel="stylesheet" href="{% static 'assets/css/templatemo-style.css' %}"/>
+    <link rel="stylesheet" href="{% static 'assets/css/owl.css' %}"/>
+    <link rel="stylesheet" href="{% static 'assets/css/lightbox.css' %}" />
+
+
     <meta charset="utf-8">
-    <title>PET SHOP - Pet Shop Website Template</title>
+    <title>Smile Child Organization</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="{% static "img/1654370299521  (2).jpg" %}" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="{% static "lib/flaticon/font/flaticon.css" %}" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href=" {% static 'lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static "css/bootstrap.min.css" %}" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <link href="{% static "css/style.css" %}" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+
+
+
 
 <body>
-    <!-- Topbar Start -->
-    <div class="container-fluid border-bottom d-none d-lg-block">
-        <div class="row gx-0">
-            <div class="col-lg-4 text-center py-2">
-                <div class="d-inline-flex align-items-center">
-                    <i class="bi bi-geo-alt fs-1 text-primary me-3"></i>
-                    <div class="text-start">
-                        <h6 class="text-uppercase mb-1">Our Office</h6>
-                        <span>123 Street, New York, USA</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 text-center border-start border-end py-2">
-                <div class="d-inline-flex align-items-center">
-                    <i class="bi bi-envelope-open fs-1 text-primary me-3"></i>
-                    <div class="text-start">
-                        <h6 class="text-uppercase mb-1">Email Us</h6>
-                        <span>info@example.com</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 text-center py-2">
-                <div class="d-inline-flex align-items-center">
-                    <i class="bi bi-phone-vibrate fs-1 text-primary me-3"></i>
-                    <div class="text-start">
-                        <h6 class="text-uppercase mb-1">Call Us</h6>
-                        <span>+012 345 6789</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Topbar End -->
+     <!-- Navbar Start -->
 
-
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0 mb-5">
-        <a href="index.html" class="navbar-brand ms-lg-5">
-            <h1 class="m-0 text-uppercase text-dark"><i class="bi bi-shop fs-1 text-primary me-3"></i>Pet Shop</h1>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
+    <div class="header_section">
+         <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-sm py-3 py-lg-0 px-3 px-lg-0" style="background-color: #9A208C">
+              <div class="container">
+               <a class="logo" href="index.html"><img style="width: 200px;height:  100px;" src="{% static 'img/SC LOGO DRAFT 2 (2).png' %}"></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+             <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="index.html" class="nav-item nav-link">Home</a>
-                <a href="about.html" class="nav-item nav-link active">About</a>
-                <a href="service.html" class="nav-item nav-link">Service</a>
-                <a href="product.html" class="nav-item nav-link">Product</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                <a href="/"  class="nav-item nav-link active">Home</a>
+                <a href="/about" class="nav-item nav-link">About</a>
+
+                 <div class="nav-item dropdown">
+                    <a href="/getinvolved" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Get Involved</a>
                     <div class="dropdown-menu m-0">
-                        <a href="price.html" class="dropdown-item">Pricing Plan</a>
-                        <a href="team.html" class="dropdown-item">The Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                        <a href="detail.html" class="dropdown-item">Blog Detail</a>
+                        <a href="/donate" class="dropdown-item">Donate</a>
+                        <a href="/fundraise" class="dropdown-item">Fundraise</a>
+                        <a href="/campaign" class="dropdown-item">Campaign</a>
+                        <a href="/volunteer" class="dropdown-item">Volunteer</a>
+                        <a href="/blog" class="dropdown-item">Blog</a>
+                    </div>
+                 </div>
+
+                <div class="nav-item dropdown">
+                    <a href="/focusareas" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Focus Areas</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="/advocacy" class="dropdown-item">Advocacy</a>
+                        <a href="/empowerment" class="dropdown-item">Empowerment</a>
+                        <a href="/capacity" class="dropdown-item">Capacity Building</a>
+                        <a href="/counselling" class="dropdown-item">Counselling & Psychology</a>
+                        <a href="/research" class="dropdown-item">Research</a>
+
                     </div>
                 </div>
-                <a href="contact.html" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">Contact <i class="bi bi-arrow-right"></i></a>
+                <a href="/contact" class="nav-item nav-link nav-contact bg-primary text-white px-5 ms-lg-5">Contact <i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
-    </nav>
+                  </div>
+         </nav>
+
+
     <!-- Navbar End -->
-
-
-    <!-- About Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="row gx-5">
-                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded" src="img/about.jpg" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="border-start border-5 border-primary ps-5 mb-5">
-                        <h6 class="text-primary text-uppercase">About Us</h6>
-                        <h1 class="display-5 text-uppercase mb-0">We Keep Your Pets Happy All Time</h1>
-                    </div>
-                    <h4 class="text-body mb-4">Diam dolor diam ipsum tempor sit. Clita erat ipsum et lorem stet no labore lorem sit clita duo justo magna dolore</h4>
-                    <div class="bg-light p-4">
-                        <ul class="nav nav-pills justify-content-between mb-3" id="pills-tab" role="tablist">
-                            <li class="nav-item w-50" role="presentation">
-                                <button class="nav-link text-uppercase w-100 active" id="pills-1-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-1" type="button" role="tab" aria-controls="pills-1"
-                                    aria-selected="true">Our Mission</button>
-                            </li>
-                            <li class="nav-item w-50" role="presentation">
-                                <button class="nav-link text-uppercase w-100" id="pills-2-tab" data-bs-toggle="pill"
-                                    data-bs-target="#pills-2" type="button" role="tab" aria-controls="pills-2"
-                                    aria-selected="false">Our Vission</button>
-                            </li>
-                        </ul>
-                        <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active" id="pills-1" role="tabpanel" aria-labelledby="pills-1-tab">
-                                <p class="mb-0">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
-                            </div>
-                            <div class="tab-pane fade" id="pills-2" role="tabpanel" aria-labelledby="pills-2-tab">
-                                <p class="mb-0">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- About End -->
 
 
-    <!-- Offer Start -->
-    <div class="container-fluid bg-offer my-5 py-5">
-        <div class="container py-5">
-            <div class="row gx-5 justify-content-start">
-                <div class="col-lg-7">
-                    <div class="border-start border-5 border-dark ps-5 mb-5">
-                        <h6 class="text-dark text-uppercase">Special Offer</h6>
-                        <h1 class="display-5 text-uppercase text-white mb-0">Save 50% on all items your first order</h1>
-                    </div>
-                    <p class="text-white mb-4">Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor ea et dolore et at sea ea at dolor justo ipsum duo rebum sea. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo lorem. Elitr ut dolores magna sit. Sea dolore sed et.</p>
-                    <a href="" class="btn btn-light py-md-3 px-md-5 me-3">Shop Now</a>
-                    <a href="" class="btn btn-outline-light py-md-3 px-md-5">Read More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Offer End -->
-
-
-    <!-- Team Start -->
-    <div class="container-fluid py-5">
+        <section class="section about-me" data-section="section1">
         <div class="container">
-            <div class="border-start border-5 border-primary ps-5 mb-5" style="max-width: 600px;">
-                <h6 class="text-primary text-uppercase">Team Members</h6>
-                <h1 class="display-5 text-uppercase mb-0">Qualified Pets Care Professionals</h1>
-            </div>
-            <div class="owl-carousel team-carousel position-relative" style="padding-right: 25px;">
-                <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Full Name</h5>
-                        <p class="m-0">Designation</p>
-                    </div>
-                </div>
-                <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Full Name</h5>
-                        <p class="m-0">Designation</p>
-                    </div>
-                </div>
-                <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Full Name</h5>
-                        <p class="m-0">Designation</p>
-                    </div>
-                </div>
-                <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-4.jpg" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Full Name</h5>
-                        <p class="m-0">Designation</p>
-                    </div>
-                </div>
-                <div class="team-item">
-                    <div class="position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-5.jpg" alt="">
-                        <div class="team-overlay">
-                            <div class="d-flex align-items-center justify-content-start">
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-twitter"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-facebook"></i></a>
-                                <a class="btn btn-light btn-square mx-1" href="#"><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="bg-light text-center p-4">
-                        <h5 class="text-uppercase">Full Name</h5>
-                        <p class="m-0">Designation</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+          <div class="section-heading">
+            <h2 style="text-align: center; padding-top: 20px; color: #9A208C">About Us </h2>
+            <div class="line-dec" style="padding-top: 20px; padding-bottom: 20px; font-size: 45px"></div>
+            <span
+            >We are a children’s rights, welfare, and development organization based in Kenya with a vision to expand our reach across Africa. We acknowledge that no child chooses where they would like to be born and it is, therefore, our responsibility to ensure a safe bringing of children independent of their family background.
+We focus on all areas of abuse and neglect including physical, sexual, psychological, verbal, emotional, and mental abuse.
+We have a vibrant team of over 225 youth volunteers who donate their resources, skills, and time to improving the lives of children.</span
+            >
+
+              <h2 style="text-align: center; padding-top: 20px; color: #9A208C">Our Leaders </h2>
+
+
+              <div class="left-image-post">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="left-image col-8" >
+        <img src="{% static 'img/drive-download-20230415T201045Z-001/IMG_2444.JPG' %}" alt="" style="width: 300px; height: 450px; padding-bottom: 10px; padding-top: 10px; border-radius: 50px "/>
+      </div>
     </div>
+    <div class="col-md-8">
+      <div class="right-text">
+        <h4 style="padding-bottom: 20px; padding-top: 20px; padding-left: 15px">Founder</h4>
+        <p style="position: relative; font-size: large; width: 100%; padding-right: 15px; padding-left: 15px; box-sizing: inherit; font-size: 1rem;font-weight: 400;line-height: 1.5;color: #212529;text-align: left;display: block; font-family: 'Lato', sans-serif;">
+          Mwihaki is a certified Research Associate and has taken part in numerous research projects on children’s welfare with local and international organizations. She is zealous about protecting children from child abuse and neglect. She is an Empowerment Self Defense (ESD) Instructor and teaches adolescents and women how to defend themselves verbally, and physically while offering trauma healing to victims of abuse. She is an international collaborator at Pillar Foundation US. She graduated with a bachelor’s Degree in Commerce majoring in Finance from Kenyatta University. She values talent development and is the Miss World Kenya 2 nd Runners Up 2021/22. Her interest in journalism has given her a platform to be a television presenter and corporate events moderator.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+                  <div class="white-button">
+                    <a href="#">Read More</a>
+                  </div>
+
+
+
+
+     <div class="right-image-post">
+  <div class="row">
+        <div class="col-md-8">
+      <div class="right-text">
+        <h4 style="padding-bottom: 20px; padding-top: 20px; padding-left: 100px">Research and Partnership Lead</h4>
+        <p style="position: relative; font-size: large; width: 100%; padding-right: 15px; padding-left: 100px; box-sizing: inherit; font-size: 1rem; font-weight: 400;line-height: 1.5;color: #212529;text-align: left;display: block; font-family: 'Lato', sans-serif;">
+Donfelix conducts research, provides instructional content regarding community policies, and works with corporate partners to discover co-creation opportunities. His skills in the government and non- profit sectors and data analysis and visualization help him identify trends, indicators, and policies that impact organizations and communities. He was a Data, Research, and Policy consultant for KEMRI, MOH, and AFIDEP. His success comes from his passion for helping businesses and organizations realize their goals and his research, data analysis, and policy formulation expertise. He has a Bsc. in Health Records & Informatics from Kenyatta University's School of Public Health and a Certificate in Knowledge Management from Austria       </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="left-image col-8" >
+        <img src="{% static 'img/drive-download-20230415T201045Z-001/IMG_2448.JPG' %}" alt="" style="width: 300px; height: 450px; padding-bottom: 10px; padding-top: 10px; border-radius: 50px "/>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+      <div class="left-image-post">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="left-image col-8" >
+        <img src="{% static 'img/drive-download-20230415T201045Z-001/IMG_2451.JPG' %}" alt="" style="width: 300px; height: 450px; padding-bottom: 10px; padding-top: 10px; border-radius: 50px "/>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div class="right-text">
+        <h4 style="padding-bottom: 20px; padding-top: 20px; padding-left: 15px">Social Media Manager</h4>
+        <p style="position: relative; font-size: large; width: 100%; padding-right: 15px; padding-left: 15px; box-sizing: inherit; font-size: 1rem;font-weight: 400;line-height: 1.5;color: #212529;text-align: left;display: block; font-family: 'Lato', sans-serif;">
+Magdaline is a procurement and logistics officer by profession, currently working for an international NGO as a research consultant with a specialty in adolescents sexual reproductive health. She studied Procurement and Logistics management from Chuka University. Additionally, she is a furnished apartment, and online entrepreneur keen on living a purposeful life committed to making a difference by changing the world, one smile at a time. Outside her work life, she is a fitness enthusiast, adrenaline junkie and self-taught chef.
+
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+              <div class="right-image-post">
+  <div class="row">
+        <div class="col-md-8">
+      <div class="right-text">
+        <h4 style="padding-bottom: 20px; padding-top: 20px; padding-left: 100px">Planning and Coordination Lead</h4>
+        <p style="position: relative; font-size: large; width: 100%; padding-right: 15px; padding-left: 100px; box-sizing: inherit; font-size: 1rem; font-weight: 400;line-height: 1.5;color: #212529;text-align: left;display: block; font-family: 'Lato', sans-serif;">
+Oscar is a graduate of NIBS Technical College with a diploma in Tourism Travel and Business Management. He is passionate about adventures, reading novels, and travelling. He is an entrepreneur. He coordinates the organizations physical activities and plans logistics for the same.      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="left-image col-8" >
+        <img src="{% static 'img/drive-download-20230415T201045Z-001/IMG_2452.JPG' %}" alt="" style="width: 300px; height: 450px; padding-bottom: 10px; padding-top: 10px; border-radius: 50px "/>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+      </section>
+
+
+
+
+
+    <!-- Offer Start -->
+
     <!-- Team End -->
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-light mt-5 py-5">
-        <div class="container pt-5">
+
+
+
+
+    <div id="contact" class="text-center ">
+  <div class="container col-4">
+
+  </div>
+</div>
+<div id="footer">
+  <div class="container text-center">
+
+  </div>
+</div>
+
+    <div class="container-fluid bg-light mt-5 py-5 ">
+        <div class="container pt-5 ">
             <div class="row g-5">
+                <div class="col-lg-3">
+                    <div class="section-title center">
+                      <h2>Get In Touch</h2>
+                      <hr>
+                    </div>
+                    <div class="col-md-8 col-md-offset-2">
+                      <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+                              <p class="help-block text-danger"></p>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                              <p class="help-block text-danger"></p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+                          <p class="help-block text-danger"></p>
+                        </div>
+                      </form>
+
+                    </div>
+                </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Get In Touch</h5>
-                    <p class="mb-4">No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor sed dolor</p>
-                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>info@example.com</p>
-                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+012 345 67890</p>
+                    <p class="mb-4">Choose to partner with us today</p>
+                    <p class="mb-2"><i class="bi bi-geo-alt text-primary me-2"></i>Planet One Offices, Garden Estate</p>
+                    <p class="mb-2"><i class="bi bi-envelope-open text-primary me-2"></i>smilechildorganization@gmail.com</p>
+                    <p class="mb-0"><i class="bi bi-telephone text-primary me-2"></i>+254707940347</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Quick Links</h5>
+                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Access Links</h5>
                     <div class="d-flex flex-column justify-content-start">
                         <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
                         <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Get Involved</a>
+                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Focus Areas</a>
                         <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
                         <a class="text-body" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Popular Links</h5>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
-                        <a class="text-body mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                        <a class="text-body" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
-                    </div>
-                </div>
+
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-uppercase border-start border-5 border-primary ps-3 mb-4">Newsletter</h5>
                     <form action="">
@@ -322,10 +337,7 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-md-0">&copy; <a class="text-white" href="#">Your Site Name</a>. All Rights Reserved.</p>
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <p class="mb-0">Designed by <a class="text-white" href="https://htmlcodex.com">HTML Codex</a></p>
+                    <p class="mb-md-0">&copy; <a class="text-white" href="#">Smile Child Organization 2023</a>. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
@@ -344,6 +356,14 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/SmoothScroll.js"></script>
+    <script type="text/javascript" src="js/nivo-lightbox.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.js"></script>
+    <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+    <script type="text/javascript" src="js/contact_me.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>

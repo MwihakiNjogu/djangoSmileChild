@@ -3,19 +3,34 @@ from .models import NGO
 
 def indexpage(request):
     return render(request, "index.html")
-def servicepage(request):
-    return render(request, "service.html")
+def aboutpage(request):
+    return render(request, "about.html")
 
-def productpage(request):
-    return render(request, "product.html")
-def partnership(request):
-    data = NGO.objects.all()
-    context = {"data": data}
-    return render(request, "partnership.html", context)
+def getinvlovedpage(request):
+    return render(request, "involved.html")
+
+def focusareas(request):
+    return render(request, "focusareas.html")
+
+def contactpage(request):
+    return render(request, "contact.html")
 
 def aboutpage(request):
 
     return render(request, "about.html")
+
+def blogpage(request):
+
+    return render(request, "blog.html")
+
+def donate(request):
+    return render(request, "donate.html")
+
+def advocacy(request):
+    return render(request, "advocacy.html")
+
+def campaign(request):
+    return render(request, "campaign.html")
 
 
 def signup(request):
